@@ -1,0 +1,283 @@
+body,
+html {
+    margin: 0;
+    height: 100%;
+}
+
+a {
+    color: inherit;
+    font-size: inherit;
+}
+
+.navbar-grad {
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0.57, #00AAFF), color-stop(1, #8EE7ED));
+    background-image: -o-linear-gradient(right, #00AAFF 57%, #8EE7ED 100%);
+    background-image: -moz-linear-gradient(right, #00AAFF 57%, #8EE7ED 100%);
+    background-image: -webkit-linear-gradient(right, #00AAFF 57%, #8EE7ED 100%);
+    background-image: -ms-linear-gradient(right, #00AAFF 57%, #8EE7ED 100%);
+    background-image: linear-gradient(to right, #00AAFF 57%, #8EE7ED 100%);
+}
+
+.container-fluid {
+    margin: 1em;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 289;
+    top: 0px;
+}
+
+.removePadding {
+    padding: 0;
+}
+
+.navLogo {
+    height: 100%;
+    width: auto;
+}
+
+.hero {
+    background-image: url("../img/homepage/hero-photo.png");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.imgAutoSize {
+    height: 100%;
+    width: auto;
+}
+
+.jumbotronTitle,
+.statement,
+.btnLarge {
+    color: white;
+}
+
+.jumbotronTitle {
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.jumbotronSub {
+    font-size: 36px;
+    font-weight: normal;
+    margin-top: 1%;
+}
+
+.btnLarge {
+    font-size: 18px;
+    height: auto;
+    background-color: #ff9c00;
+    font-weight: bold;
+    padding: 1.5% 4%;
+    margin-top: 3%;
+}
+
+.btnReverse {
+    background-color: white;
+    color: #ff9c00;
+    border: 4px solid #ff9c00;
+    margin-top: 3%;
+    padding: 2.5% 5.5%;
+}
+
+.table-view {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.marginAuto {
+    text-align: center;
+}
+
+.noPadding {
+    padding: 0 0;
+}
+
+.marginLogo {
+    margin-top: 3%;
+}
+
+.header {
+    margin-top: 8%;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1a1a1a;
+    text-align: center;
+}
+
+.headerSub {
+    font-size: 22px;
+    color: #959595;
+    font-weight: normal;
+    margin-top: 1%;
+    text-align: center;
+}
+
+.logoTitle {
+    font-size: 18px;
+    color: #1a1a1a;
+    font-weight: bolder;
+    margin-top: 4%;
+}
+
+.logo {
+    margin-bottom: 15%;
+}
+
+.logoSub {
+    color: #959595;
+    font-weight: normal;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.statement {
+    background-image: url(../img/homepage/testimonial-photo1.png);
+    background-size: cover;
+    height: 100%;
+}
+/**/
+
+.navbar-default {
+    height: 12%;
+    margin: 0 0;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-header {
+    height: 100%;
+}
+
+.quote-text {
+    font-size: 72px;
+    font-weight: 100;
+}
+
+.quote-author {
+    font-size: 28px;
+    margin-bottom: 3%;
+}
+
+.heightAuto {
+    height: auto;
+}
+
+.footerMargin {
+    margin-bottom: 4%;
+    margin-top: 30%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.footerLogo {
+    text-align: center;
+}
+
+.footerLogoText {
+    margin-top: 2%;
+    color: #ACACAC;
+}
+
+.footerLink {
+    font-size: 13px;
+    color: #ACACAC;
+    line-height: 30px;
+    list-style-type: none;
+}
+
+.footerSocialMargins {
+    margin-right: 1%;
+}
+
+.footerIndexMargin {
+    margin-top: 3%;
+}
+
+.services {
+    margin-bottom: 15%;
+    margin-top: 3%;
+}
+
+.services-container {
+    padding-left: 22%;
+    padding-right: 22%;
+}
+
+.service-block {
+    margin-bottom: 12%;
+}
+
+.serviceTitle {
+    font-size: 18px;
+    color: #1a1a1a;
+    font-weight: bolder;
+    line-height: 30px;
+}
+
+.serviceSubtitle {
+    font-size: 18px;
+    color: #959595;
+    font-weight: normal;
+    margin-top: 2.5%;
+}
+
+.icon-container {
+    padding-top: 3%;
+    text-align: center;
+}
+
+.btnServices {
+    margin-top: 0;
+    padding: 4% 12%;
+}
+
+.profiles {
+    text-align: center;
+    padding: 4% 23% 0 23%;
+}
+
+.profiles .header,
+.headerSub {
+    font-size: 18px;
+}
+
+.btnTeam {
+    font-size: 18px;
+    height: auto;
+    background-color: #ff9c00;
+    font-weight: bold;
+    padding: 1.5% 4%;
+    margin-top: 3%;
+}
+/* End of Bootstrap Override*/
+
+@media(max-width:768px) {
+    .floatRight {
+        float: right;
+    }
+    .serviceTitle {
+        text-align: center;
+    }
+    .marginLogo{
+        margin-top: 5%;
+    }
+    .logoSub{
+        margin-bottom: 6%;
+    }
+    .
+}
